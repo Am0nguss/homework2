@@ -1,0 +1,116 @@
+/* ===== Skip link (доступность) ===== */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 10px;
+  background: #000;
+  color: #fff;
+  padding: 10px 14px;
+  z-index: 9999;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  left: 10px;
+}
+
+/* ===== Base page styles ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  color: #111;
+  background: #f5f5f5;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #0b2a4a;
+  padding: 16px;
+}
+
+/* ===== Navigation ===== */
+nav {
+  background-color: #163b63;
+  padding: 12px 16px;
+
+  /* HW2: nav inline-block + width ~80% */
+  display: inline-block;
+  width: 80%;
+}
+
+/* HW2: только картинка внутри nav */
+nav img {
+  width: 10%;
+  height: auto;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  text-decoration: underline;
+}
+
+/* ===== Main content ===== */
+main {
+  background-color: #ffffff;
+  font-size: 1rem;
+  padding: 16px;
+}
+
+/* ===== Grid class (HW2) ===== */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-between;
+  align-items: start;
+  row-gap: 20px;
+}
+
+/* HW2: только картинки внутри .grid */
+.grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ===== Flex class (HW2) ===== */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #0b2a4a;
+  color: #ffffff;
+  padding: 16px;
+}
+
+/* ===== List items (HW2: закомментировать существующий стиль) ===== */
+/* li {
+  display: inline-block;
+  width: 200px;
+  margin: 6px 8px 6px 0;
+  vertical-align: top;
+} */
+
+/* ===== Heading ===== */
+h1 {
+  text-align: center;
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* ===== Paragraphs ===== */
+p {
+  line-height: 1.6;
+}
