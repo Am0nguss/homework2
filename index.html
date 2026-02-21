@@ -1,1 +1,86 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Мой финальный проект — HTML</title>
+    <meta name="description" content="Учебный финальный проект по HTML: семантика, изображения, списки, ссылки." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
+  <body>
+    <header>
+      <h1>Мой мини-сайт: любимые технологии и хобби</h1>
+
+      <nav aria-label="Навигация по странице">
+        <ul>
+          <li><a href="#about">О проекте</a></li>
+          <li><a href="#gallery">Галерея</a></li>
+          <li><a href="#list">Список</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section id="about">
+        <h2>О проекте</h2>
+        <p>
+          Это финальная страница, сделанная на чистом HTML. Цель — пройти проверку валидности и доступности.
+        </p>
+        <p>
+          Полезный внешний ресурс:
+          <a href="https://developer.mozilla.org/ru/" target="_blank" rel="noopener noreferrer">
+            MDN Web Docs
+          </a>
+        </p>
+      </section>
+
+      <section id="gallery">
+        <h2>Галерея</h2>
+
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=900&q=60"
+            alt="Ноутбук на столе с открытым редактором кода"
+            width="900"
+          />
+          <figcaption>Рабочее место разработчика</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?auto=format&fit=crop&w=900&q=60"
+            alt="Экран с абстрактными цифровыми символами и подсветкой"
+            width="900"
+          />
+          <figcaption>Технологии и данные</figcaption>
+        </figure>
+
+        <figure>
+          <img
+            src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=60"
+            alt="Горы на рассвете, мягкий свет и туман в долине"
+            width="900"
+          />
+          <figcaption>Отдых и вдохновение</figcaption>
+        </figure>
+      </section>
+
+      <section id="list">
+        <h2>Что я хочу улучшить в веб-разработке</h2>
+        <ul>
+          <li>Писать семантический HTML и не пропускать уровни заголовков</li>
+          <li>Добавлять понятные alt-описания для изображений</li>
+          <li>Проверять код валидаторами W3C и WAVE перед публикацией</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Контакты</h2>
+      <p>Автор: Ваше имя • 2026</p>
+      <p><a href="#main-content">Наверх</a></p>
+    </footer>
+  </body>
+</html>
